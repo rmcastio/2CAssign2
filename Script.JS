@@ -32,11 +32,32 @@
 // 10. Write code that demonstrates an automatic type conversion as shown in Chapter 01.
 
 
-// 1) String
+// 1) String.
 Console.log("Hello World!");
 
-// 2) Concatenated three strings
-Console.log("Hello", "World!");
+// 2) Concatenated three strings.
+Console.log("Hello " + "World!");
+Console.log("Hello" + " " + "World!");
 
-// 3) 
-Console.log("Hello\n World!");
+// 3) String on another line.
+Console.log("Hello\n + World!");
+
+// 4) Output arithmetic expression.
+Console.log( 3 * 8 + 2); //26
+
+// 5) Output comparison result.
+Console.log( 5 < 10) // True
+
+// 6) Output comparison result.
+Console.log( 10 > 5); // True
+
+// 7) Output comparison result.
+Console.log("Apples" != "Oranges" ) // True
+
+// 8 Output comparison result.
+Console.log( 10 * 10 > 50 && 5 * 5 < 50); //
+
+// 9 Output comparison result.
+Console.log( 1 + 2 > 5 || 1 * 10 > 5); //
+
+// 10 Example of automatic conversion in CH01
