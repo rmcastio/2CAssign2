@@ -46,18 +46,19 @@ Console.log("Hello\n + World!");
 Console.log( 3 * 8 + 2); //26
 
 // 5) Output comparison result.
-Console.log( 5 < 10) // True
+Console.log( 5 < 10); // True
 
 // 6) Output comparison result.
 Console.log( 10 > 5); // True
 
 // 7) Output comparison result.
-Console.log("Apples" != "Oranges" ) // True
+Console.log("Apples" != "Oranges" ); // True
 
-// 8 Output comparison result.
-Console.log( 10 * 10 > 50 && 5 * 5 < 50); //
+// 8) Output comparison result.
+Console.log( 10 * 10 > 50 && 5 * 5 < 50); // True
 
-// 9 Output comparison result.
-Console.log( 1 + 2 > 5 || 1 * 10 > 5); //
+// 9) Output comparison result.
+Console.log( 1 + 2 > 5 || 1 * 10 > 5); // True
 
-// 10 Example of automatic conversion in CH01
+// 10) Example of automatic conversion in CH01
+Console.log( 4 * null) // 0
