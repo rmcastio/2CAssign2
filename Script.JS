@@ -30,3 +30,13 @@
 // 1 + 2 is greater than 5 OR 1 * 10 is greater than 5
 
 // 10. Write code that demonstrates an automatic type conversion as shown in Chapter 01.
+
+
+// 1) String
+Console.log("Hello World!");
+
+// 2) Concatenated three strings
+Console.log("Hello", "World!");
+
+// 3) 
+Console.log("Hello\n World!");
